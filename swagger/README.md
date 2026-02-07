@@ -1,4 +1,4 @@
-# Swagger API Project
+## Swagger API Project
 
 This repository contains a Swagger (OpenAPI) specification for documenting and testing REST APIs, along with a Docker Compose setup to run Swagger UI locally.
 
@@ -26,7 +26,7 @@ Make sure you have the following installed on your system:
  [Docker]
  [Docker Compose]
 
-### Start Swagger UI Using Docker Compose
+## Start Swagger UI Using Docker Compose
 
 ```bash
 docker-compose up -d
@@ -34,7 +34,7 @@ docker-compose up -d
 
 This will start Swagger UI in detached mode.
 
-### 3️⃣ Access Swagger UI
+## Access Swagger UI
 
 Open your browser and navigate to:
 
@@ -67,3 +67,4 @@ To stop and remove containers:
 ```bash
 docker-compose down
 ```
+
